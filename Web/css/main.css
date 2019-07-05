@@ -1,0 +1,200 @@
+
+
+#container{
+	position:fixed !important;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+#navigation{
+	background-color: #333333;
+	height:12vh;
+	max-height: 100%;
+	box-shadow: 2px 2px 6px grey;
+}
+
+#googleMap{
+
+	height:88vh;
+	max-height: 100%;
+
+}
+
+#mainLogo{
+
+	margin-bottom: 3vh;
+    margin-top:3vh;
+	margin-left: 4vw;
+	max-height: 100%;
+	max-width: 100%;
+	height: 52%; 
+	width: auto; 
+	display: inline-block;
+    vertical-align: middle;
+
+}
+
+#map {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
+
+#debug1 {
+    display: inline-block;
+    width: 50vw;
+    height: auto;
+    /*border: 3px; *//*Uncomment for alignment*/
+    position: absolute;
+    top: 97%;
+    left: 10%; 
+	color: #333;
+	z-index: 10;
+			font-size: 0.6vh;
+	font-family: "Arial";
+
+		opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+#debug2 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    /*border: 3px; *//*Uncomment for alignment*/
+    position: absolute;
+    top: 74%;
+    left: 78%; 
+color: #ddd;
+	z-index: 10;
+			font-size: 2.4vh;
+	font-family: "Arial";
+	font-weight: bold;
+		opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#about {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    /*border: 3px; *//*Uncomment for alignment*/
+    position: absolute;
+    top: 3%;
+    left: 77.5%; 
+	color: #eee;
+	z-index: 10;
+			font-size: 2.4vh;
+	font-family: "Arial";
+	font-weight: bold;
+		opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+#about:hover{
+
+	color: #ee0;
+}
+.floating-box {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    /*border: 3px; *//*Uncomment for alignment*/
+    position: absolute;
+    top: 12%;
+    left: 75%; 
+
+}
+
+td,tr{
+ width:10vw;
+ height:20vh;
+ }
+ 
+#graphRow{
+ height:28vh;
+}
+
+.rRect{
+	width: auto;
+	height: 10vh;
+	
+	padding: 2vh;
+
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+
+	background-color: #333333;
+	border-radius: 2vh;
+	
+	margin: 0vh 0.5vh 0vh 0.5vh;
+	
+	color: #eee;
+	line-height: 10vh;  	/*setting this same as to the height it vertically aligns the text inside div*/
+	text-align: center; 	/*Horizontal alignment*/
+	
+	font-size: 3.5vh;
+	font-family: "Arial";
+	font-weight: bold;
+
+	/*Disable text selection*/	
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title{
+	width: auto;
+	height: 2vh;
+
+	padding: 1vh;
+
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+
+	background-color: #333333;
+	border-radius: 1.25vh;
+	
+	margin: 0vh 1vh 0.75vh 1vh;
+
+	
+	color: #eee;
+	line-height: 2vh;  	/*setting this same as to the height it vertically aligns the text inside div*/
+	text-align: center; 	/*Horizontal alignment*/
+	
+	font-size: 2vh;
+	font-family: "Arial";
+	font-weight: bold;
+	
+	/*Disable text selection*/
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#chartdiv{
+	padding: 0vh;
+	width:24vw;
+	height:24vh;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+
+	background-color: #333333;
+	border-radius: 2vh;
+
+	margin: -1.5vh 0.3vw 0.5vh 0.5vw;/*Top,right,bottom,left*/
+}
+
+#canvas{
+	width:21vw;
+	height:23vh;
+	margin: 0vh -0.6vh 0.5vh -0.5vh;/*Top,right,bottom,left*/
+	/*padding: 0vh 0.3vw;*/
+}
